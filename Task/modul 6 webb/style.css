@@ -1,0 +1,44 @@
+.nav-link {
+    display: flex;
+    gap:1.5rem;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hotpink;
+    padding: 1.5rem;
+}
+
+body{
+    margin: 0;
+}
+
+header div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+article{
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    background-color:rgb(252, 248, 243);
+    border-radius: 0.5rem;
+    padding: 2px;
+    box-shadow: 0px 4px 12px rgba(53, 53, 53, 0.132);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    font-style: italic;
+    color: gray;
+}
+
+.nils{
+    
+}

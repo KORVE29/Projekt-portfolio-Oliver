@@ -1,0 +1,44 @@
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: aquamarine;
+    height: 5rem;
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    padding: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.nav-left{
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+.primary-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right{
+    display:flex;
+    flex-grow: 1;
+    flex-basis: 33%;
+    justify-content: right;
+}
+
